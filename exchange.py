@@ -3,9 +3,9 @@
 import pymysql
  
 # 打开数据库连接
-db = pymysql.connect(host='43.129.207.250',
+db = pymysql.connect(host='43.129.27.250',
                      user='quick_ins_dev',
-                     password='cxX6S5nNkb3DNWTG',
+                     password='cxX6S5nNDNWTG',
                      database='quick_ins_dev')
 #读入数据
 f = open("acc.txt","r+")   #打开文件夹
